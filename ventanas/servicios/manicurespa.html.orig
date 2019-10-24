@@ -81,12 +81,14 @@
 
 <!-- Imagen -->
     <div class="ftco-blocks-cover-1">
-      <div class="site-section-cover" data-stellar-background-ratio="0.5" style="background-image: url('../../images/figura.jpg')">
+      <div class="site-section-cover" data-stellar-background-ratio="0.5" style="background-image: url('../../images/manos.jpg')">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-7">
-              <h1 class="mb-3">Vacumterapia</h1>
-              <p>Descripcion de lo que tiene la ventana</p>
+              <h1 class="mb-3">Manicure Spa</h1>
+              <p>Esta es una terapia donde ayudamos a las manos a relajarse y verse bien. 
+                  Iniciamos con una exfoliación, retiramos  cutícula, humectamos con una mascarilla de sandia y naranja, relajamos las manos con un masaje y terminamos con un esmaltado sencillo en las uñas. 
+                  </p>
             </div>
           </div>
         </div>
@@ -102,10 +104,12 @@
 
         <div class="row align-items-center">
           <div class="col-md-5 mr-auto">
-            <h2 class="serif font-weight-bold mb-3">Vacumterapia</h2>
-            <p class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, consequuntur?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nesciunt, amet officia soluta, dolores dolor?</p>
-
+            <h2 class="serif font-weight-bold mb-3">Beneficios</h2>
+            <ul>
+                <li>Remueve las células muertas de la piel.</li>
+                <li>Humecta y suaviza las manos.</li>
+                <li>Relaja las manos dándole un merecido descanso. </li>
+              </ul>
 
           </div>
           <div class="col-md-6">
@@ -119,13 +123,18 @@
     </div>
 <!-- fin Lo que va despues de la imagen -->
 
+
 <!-- DESCUENTO -->
-    <div class="site-section services_294491" style="background: #e1efee">
+    <div class="site-section services_294491" style="background: #fdd9de">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
-            <h2 class="serif font-weight-bold" style="color: #60aca4">Agenda tu cita con nosotros </h2>
-            <p><a href="../../citas.html" class="btn" style="background-color: #60aca4; color: #fff;">Agendar</a></p>
+            <h2 class="serif font-weight-bold" style="color: #f21f41">Agenda tu cita con nosotros </h2>
+<<<<<<< HEAD
+            <p><a href="../../citas.html" class="btn" style="background-color: #f21f41; color: #fff;">Agendar</a></p>
+=======
+            <p><a href="#" class="btn" style="background-color: #f21f41; color: #fff;">Agendar</a></p>
+>>>>>>> efb744fa29a9a583b14dd7ac4193523c0f346edc
           </div>
         </div>
       </div>
@@ -138,7 +147,7 @@
 
     
 
-    <footer class="site-footer bg-image overlay" style="background-image: url('../../images/figura.jpg')">
+    <footer class="site-footer bg-image overlay" style="background-image: url('../../images/manos.jpg')">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-5">
