@@ -27,26 +27,26 @@
 			
 			</div>
 			<div class="card-body">
-				<form>
+				<form enctype="text/plain" method="post" action="mailto:is717496@iteso.mx?subject=Agendar cita">
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user-circle"></i></span>
 						</div>
-                        <input type="text" class="form-control" placeholder="Nombre completo" required>
+                        <input type="text" name="Name" id="Name" class="form-control" placeholder="Nombre completo" required>
                     </div>
 
                     <div class="input-group form-group">
                             <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                                 </div>
-                        <input type="mail" class="form-control" placeholder="Correo electrónico" required>	
+                        <input type="mail" name="Mail" id="mail" class="form-control" placeholder="Correo electrónico" required>	
                     </div>
 
                     <div class="input-group form-group">
                             <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fas fa-mobile"></i></span>
                                 </div>
-                        <input type="tel" pattern="[0-9]{10}" class="form-control" placeholder="Teléfono" required>	
+                        <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" class="form-control" placeholder="Teléfono" required>	
                     </div>
                     
                     <div class="input-group form-group">
@@ -81,13 +81,13 @@
                                 <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="fas fa-edit"></i></span>
                                     </div>
-                                <input type="text" class="form-control" placeholder="Servicio" >
+                                <input type="text" name="Service" id="service" class="form-control" placeholder="Servicio" required>
                             </div>
                         <div class="input-group form-group">
                                 <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="fas fa-edit"></i></span>
                                     </div>
-                                <input type="text" class="form-control" placeholder="Comentario extra" >
+                                <input type="text" name="Comment" id="comment" class="form-control" placeholder="Comentario extra" >
                             </div>
 
 
