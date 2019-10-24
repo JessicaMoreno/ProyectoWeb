@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registrarse</title>
+	<title>Citas</title>
    <!--Made with love by Mutiullah Samim -->
    
 	<!--Bootsrap 4 CDN-->
@@ -16,14 +16,14 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
 	<!--Custom styles-->
-	<link rel="stylesheet" type="text/css" href="Register.css">
+	<link rel="stylesheet" type="text/css" href="cita.css">
 </head>
 <body>
 <div class="container">
 	<div class="d-flex justify-content-center h-100">
 		<div class="card">
 			<div class="card-header">
-				<h3>Registro</h3>
+				<h3>¡Agenda tu cita!</h3>
 			
 			</div>
 			<div class="card-body">
@@ -33,13 +33,6 @@
 							<span class="input-group-text"><i class="fas fa-user-circle"></i></span>
 						</div>
                         <input type="text" class="form-control" placeholder="Nombre completo" required>
-                    </div>
-
-					<div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
-                            </div>
-                        <input type="text" class="form-control" placeholder="Usuario" required>	
                     </div>
 
                     <div class="input-group form-group">
@@ -70,35 +63,39 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
                             </div>
-                            <input type="date" class="form-control" id="FNac" 
-                            name="Fecha de nacimiento" min="1900-01-01" max="2009-12-31" required>
+                            <input type="datetime-local" class="form-control" id="date" 
+                            name="cita" min="2019-10-23"  required>
                         </div>
-
-					<div class="input-group form-group">
-						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-key"></i></span>
-						</div>
-                        <input type="password" id="psw" class="form-control" placeholder="Contraseña" required
-                        pattern="(?=.[a-z])(?=.*[A-Z]).{6,}" >
-                    </div>
-                    
-                    <div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-key"></i></span>
+                        
+                        <div class="form-group">
+                                            <ul class="list-group">
+                                            <li class="list-group-item">
+                                    <input type="radio" name="RButton" value="Masajes" checked> Masajes
+                                    <input type="radio" name="RButton" value="Faciales"> Faciales<br>
+                                    <input type="radio" name="RButton" value="Figura">Figura  
+                                    <input type="radio" name="RButton" value="Manos y pies">Manos y pies 
+                                </li>  
+                                </ul>
                             </div>
-                            <input type="password" class="form-control" placeholder="Confirmar contraseña" 
-                            data-match="#psw" data-match-error="Las contraseñas no coinciden" 
-                            pattern="(?=.[a-z])(?=.*[A-Z]).{6,}"  required>
-                        </div>
+                        <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-edit"></i></span>
+                                    </div>
+                                <input type="text" class="form-control" placeholder="Servicio" >
+                            </div>
+                        <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-edit"></i></span>
+                                    </div>
+                                <input type="text" class="form-control" placeholder="Comentario extra" >
+                            </div>
+
 
 					<div class="form-group">
-						<input type="submit" value="Registrarme" class="btn float-right login_btn">
+						<input type="submit" value="Agendar" class="btn float-right login_btn">
 					</div>
 				</form>
 			</div>
-			<div class="card-footer">
-				<div class="d-flex justify-content-center links">
-					¿Ya tienes cuenta?<a href="login.html">Inicio de sesión</a>
 				</div>
 			</div>
 		</div>
