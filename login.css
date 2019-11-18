@@ -7,7 +7,6 @@ background-image: url("images/bg.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 height: 100%;
-font-family: 'Numans', sans-serif;
 }
 
 .container{
@@ -82,3 +81,4 @@ color: white;
 margin-left: 4px;
 color: #7e6be7;
 }
+
