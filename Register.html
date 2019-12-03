@@ -23,7 +23,7 @@
 			
 			</div>
 			<div class="card-body">
-				<form>
+				<form action="POST">
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user-circle"></i></span>
@@ -74,8 +74,8 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-key"></i></span>
 						</div>
-                        <input type="password" id="psw" class="form-control" placeholder="Contraseña" required
-                        pattern="(?=.[a-z])(?=.*[A-Z]).{6,}" >
+                        <input type="password" id="psw" class="form-control" placeholder="Contraseña"  required
+                        pattern="(?=.[a-z])(?=.*[A-Z]).{6,}" title="Debe contener mayúscula, minúscula, números, letras y un tamaño mínimo de 6 caracteres " >
                     </div>
                     
                     <div class="input-group form-group">
@@ -84,7 +84,7 @@
                             </div>
                             <input type="password" class="form-control" placeholder="Confirmar contraseña" 
                             data-match="#psw" data-match-error="Las contraseñas no coinciden" 
-                            pattern="(?=.[a-z])(?=.*[A-Z]).{6,}"  required>
+                            pattern="(?=.[a-z])(?=.*[A-Z]).{6,}"  title="Debe contener mayúscula, minúscula, números, letras y un tamaño mínimo de 6 caracteres " required>
                         </div>
 
 					<div class="form-group">
