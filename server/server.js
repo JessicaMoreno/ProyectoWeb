@@ -1,15 +1,14 @@
+const serverPath= __dirname;
+const viewsPath = serverPath.replace('/server','');
 const express = require('express');
 const bodyParser = require('body-parser');
-
+const viewRoutes = require('./viewRoutes');
 const app = express();
 
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
-
-app.use(express.static(__dirname));
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/inicio.html');
-});
+app.use(express.static(viewsPath + '/public'))
+app.use('/',viewRoutes);
 
 
 const registeredUsers = [
