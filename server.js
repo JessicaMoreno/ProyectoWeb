@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 const registeredUsers = [
     {
-        username: 'osbaldo',
+        username: 'sofia',
         password: 'A123456'
     },
     {
